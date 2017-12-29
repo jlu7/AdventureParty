@@ -1,0 +1,37 @@
+# Ignore Directories
+Library
+Temp
+builds 
+obj
+bin
+
+Client/Konami-Slots/Assets/Plugins/unibill/generated
+Client/Konami-Slots/AdjustPostBuild*
+Client/Konami-Slots/CompilerFlags_*
+Client/Konami-Slots/OtherLevelsPreferences.xml
+Client/Konami-Slots/Assets/-tk2d.*
+Client/Konami-Slots/Assets/Bundles/CrcCache-*
+Client/Konami-Slots/Assets/Helpshift/Plugins/iOS/HelpshiftInstallConfig.json
+Client/Konami-Slots/Assets/StreamingAssets/env.json*
+Client/versions.properties
+
+# Ignore Files
+.DS_Store
+*.csproj
+*.sln
+*.unityproj
+*.DotSettings
+*.pyc
+*.pyc.meta
+*.suo
+*.swp
+*.user
+*.userprefs
+*.vsp
+LocalNetworkConfig.*
+
+Client/Konami-Slots/Assembly-*
+Client/Konami-Slots/*.txt
+Client/Konami-Slots/.idea
+Client/Konami-Slots/Assets/Plugins/Editor/JetBrains*
+Client/Konami-Slots/.vs/Konami-Slots/v15/sqlite3/storage.ide
