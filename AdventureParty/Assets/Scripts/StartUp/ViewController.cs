@@ -27,7 +27,7 @@ public class ViewController : MonoBehaviour
         Views = new Stack<Transform>();
         AnchorRef = anchorRef;
         Views.Push(AnchorRef);
-        GameObject Game = Instantiate(Resources.Load<GameObject>("Assets/Views/Menu")) as GameObject;
+        GameObject Game = Instantiate(Resources.Load<GameObject>("Assets/Views/PlayerLobby")) as GameObject;
         Game.transform.SetParent(AnchorRef, false);
         Views.Push(Game.transform);
     }
